@@ -1,5 +1,7 @@
-default:
-	echo VimのMakeを作る
+.PHONY: \
+	~/.config/nvim/init.vim \
+	~/.vimrc
+	
 all:
 	make ~/.config/nvim/init.vim
 	make ~/.vimrc
