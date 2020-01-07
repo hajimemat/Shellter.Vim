@@ -1,0 +1,19 @@
+# デスクトップ用
+[[plugins]]
+repo = 'junegunn/goyo.vim'
+hook_add = '''
+'''
+
+# プレビュー用途
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+hook_add = '''
+call LoadSource('default/open-browser.vim')
+'''
+[[plugins]]
+# (参考)[https://github.com/iamcco/markdown-preview.nvim]
+repo = 'iamcco/markdown-preview.nvim'
+build = 'cd ./app && yarn install'
+hook_add = '''
+call LoadSource('default/markdown-preview.vim')
+'''
