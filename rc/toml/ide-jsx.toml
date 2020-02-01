@@ -1,0 +1,6 @@
+#
+# JSX開発
+#
+#
+[[plugins]]
+repo = 'mxw/vim-jsx'

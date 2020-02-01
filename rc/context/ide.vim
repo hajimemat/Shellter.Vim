@@ -19,9 +19,11 @@ if (g:nora_vim_enable_php)
   call LoadToml('ide-php')
   let g:ale_php_phpcs_standard = 'PSR2'
   let g:ale_fix_on_save = 1
-  au NoraAutoCmd Filetype php let b:ale_linters = ['phpcs']
+  au NoraAutoCmd Filetype php let b:ale_linters = ['phpcs', 'php']
   au NoraAutoCmd Filetype php let b:ale_fixers = ['php_cs_fixer']
 endif
 
+" JSX
+call LoadToml('ide-jsx')
 " IDE用の設定を読み込む
 call LoadSource('config/ide.vim')

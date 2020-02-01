@@ -14,6 +14,8 @@ au NoraAutoCmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdo
 au NoraAutoCmd BufNewFile,BufRead *.mk set filetype=make
 " twig
 au NoraAutoCmd BufNewFile,BufRead *.twig set filetype=html
+" nunjacks
+au NoraAutoCmd BufNewFile,BufRead *.nunj set filetype=html
 au NoraAutoCmd BufNewFile,BufRead *.ctp set filetype=html
 au NoraAutoCmd BufNewFile,BufRead *.{yaml,yml,raml} set filetype=yaml
 "

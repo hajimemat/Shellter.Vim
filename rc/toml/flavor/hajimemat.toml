@@ -17,3 +17,8 @@ repo = 'ryanoasis/vim-devicons'
 repo = 'vim-airline/vim-airline'
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
+[[plugins]]
+repo = 'benmills/vimux'
+hook_add = '''
+call LoadSource('default/vimux.vim')
+'''
